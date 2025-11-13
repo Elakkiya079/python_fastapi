@@ -1,6 +1,6 @@
-from fastapi import FASTAPI
+from fastapi import FastAPI
 
-app =fastapi()
+app =FastAPI()
 
 @app.get('/users')
 def get_users():
